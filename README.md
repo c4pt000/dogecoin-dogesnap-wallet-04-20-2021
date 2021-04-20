@@ -27,9 +27,15 @@ cd Dogecoin_Wallet_dogesnap.04-20-2021-DMq9mjF2BpWA9EZhMcpMmi6voVXiBMJY9B/
 
 dogecoin
 
+copy wallet.dat -> /opt/host-opt in guest to backup your wallet
+
+wallet.dat will be located in /opt/host-opt on host 
+
 ```
 
 # windows docker host
+![s1](https://res.cloudinary.com/practicaldev/image/fetch/s--1fOShFRZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/3eh1lry7125modpdj6a2.png)
+
 
 ```
 https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde
@@ -40,7 +46,6 @@ choco install vcxsrv
 
 run Xlaunch from the start menu 
 
-![s1](https://res.cloudinary.com/practicaldev/image/fetch/s--1fOShFRZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/3eh1lry7125modpdj6a2.png)
 
 (disable access control)
 
@@ -66,7 +71,7 @@ copy wallet.dat -> /opt/host-opt in guest to backup your wallet
 
 wallet.dat will be located in C:\opt\host-opt on host 
 
-
+```
 dogecoin is located in /usr/bin/dogecoin
 --------------------------------
 
@@ -78,7 +83,7 @@ cd /opt/Dogecoin_Wallet_dogesnap.04-20-2021-DMq9mjF2BpWA9EZhMcpMmi6voVXiBMJY9B
 ```
 
 if you found this useful my DOGE deposit address
-![s1](https://raw.githubusercontent.com/c4pt000/dogecoin-dogesnap-wallet-04-20-2021/main/my-doge-deposit.png)
 
+![s1](https://raw.githubusercontent.com/c4pt000/dogecoin-dogesnap-wallet-04-20-2021/main/my-doge-deposit.png)
 
 DMq9mjF2BpWA9EZhMcpMmi6voVXiBMJY9B
