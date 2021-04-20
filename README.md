@@ -17,6 +17,8 @@ wallet.dat will be located in /opt/host-opt on host
 
 # linux docker host
 ```
+docker run -it c4pt/dogesnap-wallet
+
 docker run -it -d  --net=host --privileged -v /opt/host-opt:/opt/host-opt -v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix c4pt/dogesnap-wallet
 
 docker exec -it <docker_vm_hash> bash
@@ -54,6 +56,7 @@ open -> powershell
 ipconfig    (get LAN ip)
                                   
 set-variable -name DISPLAY -value 192.168.xxx.xx:0.0      <- replace with your LAN ip
+docker run -it c4pt/dogesnap-wallet
 
 docker run -it -d  --net=host --privileged -v C:/opt/host-opt:/opt/host-opt -e DISPLAY=$DISPLAY c4pt/dogesnap-wallet
 
