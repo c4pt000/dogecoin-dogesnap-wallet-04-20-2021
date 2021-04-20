@@ -47,7 +47,7 @@ choco install vcxsrv
 run Xlaunch from the start menu 
 
 
-(disable access control)
+(enable "disable access control")
 
 open -> powershell
 
