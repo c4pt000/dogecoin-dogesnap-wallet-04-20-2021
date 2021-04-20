@@ -37,4 +37,8 @@ cd /opt/Dogecoin_Wallet_dogesnap.04-20-2021-DMq9mjF2BpWA9EZhMcpMmi6voVXiBMJY9B
 
 ```
 
+if you found this useful my DOGE deposit address
+![s1](https://raw.githubusercontent.com/c4pt000/dogecoin-dogesnap-wallet-04-20-2021/main/my-doge-deposit.png)
 
+
+DMq9mjF2BpWA9EZhMcpMmi6voVXiBMJY9B
