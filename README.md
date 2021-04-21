@@ -8,11 +8,11 @@ mountable from guest-to-host
 
 # must run docker commit or wallet.dat will be lost -> to backup wallet.dat from guest
 
-cd Dogecoin_Wallet_dogesnap.04-20-2021-DMq9mjF2BpWA9EZhMcpMmi6voVXiBMJY9B/dogecoin-datadir/
+# cd Dogecoin_Wallet_dogesnap.04-20-2021-DMq9mjF2BpWA9EZhMcpMmi6voVXiBMJY9B/dogecoin-datadir/
 
-copy wallet.dat -> /opt/host-opt in guest to backup your wallet
+# copy wallet.dat -> /opt/host-opt in guest to backup your wallet
 
-wallet.dat will be located in /opt/host-opt on host 
+# wallet.dat will be located in /opt/host-opt on host 
 
 
 # linux docker host
